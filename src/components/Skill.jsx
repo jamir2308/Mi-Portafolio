@@ -13,19 +13,38 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Skill = () => {
   return (
-    <div>
+    <div id="skill">
       <div>
-        <h3>Skill</h3>
+        <h3>Habilidades</h3>
       </div>
-      <div style={{ fontSize: "8em", color: "cyan" }}>
-        <FontAwesomeIcon icon={faHtml5} />
-        <FontAwesomeIcon icon={faCss3} />
-        <FontAwesomeIcon icon={faBootstrap} />
-        <FontAwesomeIcon icon={faJsSquare} />
-        <FontAwesomeIcon icon={faReact} />
-        <FontAwesomeIcon icon={faAngular} />
-        <FontAwesomeIcon icon={faJava} />
-        <FontAwesomeIcon icon={faGithubSquare} />
+      <div
+        style={{ fontSize: "8em", color: "cornflowerblue" }}
+        id="habilidades"
+      >
+        <div>
+          <FontAwesomeIcon icon={faHtml5} />
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faCss3} />
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faBootstrap} />
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faJsSquare} />
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faReact} />
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faAngular} />
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faJava} />
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faGithubSquare} />
+        </div>
       </div>
     </div>
   );

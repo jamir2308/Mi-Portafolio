@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#welcome-section {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 50px;
+  border-bottom: solid darkslategrey;
+  position: relative;
+  top: 65px;
 }
-
-.App-link {
-  color: #61dafb;
+h4 {
+  padding-top: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  width: 150px;
+  height: 150px;
+}
+#skill {
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#habilidades {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom: solid darkslategrey;
+}
+#proyecto {
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+}
+#projects {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 40px;
+}
+#footer {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+  background-color: darkslategray;
+  color: antiquewhite;
+  position: fixed;
+  width: 100%;
+  height: 35px;
+  bottom: 0;
+  z-index: 1;
+  align-items: center;
+  gap: 20px;
+}
+#icon-footer {
+  padding-right: 20px;
 }

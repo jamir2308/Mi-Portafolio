@@ -1,11 +1,12 @@
 import React from "react";
+import jamir from "../imagen/jamir.png";
 
 export const QuienSoy = () => {
   return (
-    <div id="welcome-section">
-      <div>
+    <div id="welcome-section" className="row">
+      <div className="col-6">
         <h1>Jamir Patiño</h1>
-        <small> Desarrollador web junior</small>
+        <h4> Desarrollador web junior</h4>
         <div>
           <p>
             Desarrollador web Frontend con enfasis en ReactJS/NodeJS en Academia
@@ -14,8 +15,9 @@ export const QuienSoy = () => {
           </p>
         </div>
       </div>
-      <div>
-        <img src="../imagen/jamir.png" alt="Jamir" />
+
+      <div className="col-6">
+        <img src={jamir} alt="Jamir" />
       </div>
     </div>
   );
